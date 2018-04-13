@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+/*.q{
+	width: 100%;
+	height: 1000px;
+}*/
+.box{float:left; width:198px; height:320px; margin-left:5px;margin-top: 300px; border:1px solid #e0e0e0; text-align:center} 
+.box p{line-height:20px; padding:4px 4px 10px 4px; text-align:left} 
+.box:hover{border:1px solid #f90} 
+.box h4{line-height:32px; font-size:14px; color:#f30;font-weight:500} 
+.box h4 span{font-size:20px} 
+.u-flyer{display: block;width: 50px;height: 50px;border-radius: 50px;position: fixed;z-index: 9999;} 
+.m-sidebar{position: fixed;top: 0;right: 0;background: #000;z-index: 2000;width: 35px;height: 100%;font-size: 12px;color: #fff;} 
+.cart{color: #fff;text-align:center;line-height: 20px;padding: 200px 0 0 0px;} 
+.cart span{display:block;width:20px;margin:0 auto;} 
+.cart i{width:35px;height:35px;display:block; background:url(images/cart.png) no-repeat;} 
+#msg{position:fixed; top:300px; right:35px; z-index:10000; width:1px; height:52px; line-height:52px; font-size:20px; text-align:center; color:#fff; background:#360; display:none}
